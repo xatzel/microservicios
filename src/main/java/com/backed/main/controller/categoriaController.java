@@ -34,7 +34,7 @@ public class categoriaController {
 
     @ApiOperation(value = "Se obtiene una categoria por id")
     @GetMapping( path = "/{id}" )
-    public java.util.Optional<categoriaEntity> obtenerCategoriaPorId(@PathVariable("id") Long id) {
+    public java.util.Optional<categoriaEntity> obtenerCategoriaPorId(@PathVariable("id") int id) {
         return this.categoraService.obtenerCategoriaPorId(id);
     }
 

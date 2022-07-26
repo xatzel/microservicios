@@ -36,4 +36,8 @@ public class productoService {
             return false;
         }
     }
+	public Object getAllProducto() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

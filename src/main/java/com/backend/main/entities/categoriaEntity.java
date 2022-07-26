@@ -27,6 +27,21 @@ public class categoriaEntity {
 		@JoinColumn
 		@Column
 		private String descripcion;
+
+		public Integer getId() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public String getNombre() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public String getDescripcion() {
+			// TODO Auto-generated method stub
+			return null;
+		}
 		
 		
 		
